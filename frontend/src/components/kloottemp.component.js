@@ -53,24 +53,34 @@ export default function KlootTemp() {
             <hr />
             <h2>Next i will show how to adjust the size of your text. <br />
                 These are mostly used to adjust the headers of your text.</h2>
-            <h1>I like pizza!</h1>
+            <h1>This is header size 1!</h1>
             <br />
-            <h2>I like pizza!</h2>
+            <h2>This is header size 2!</h2>
             <br />
-            <h3>I like pizza!</h3>
+            <h3>This is header size 3!</h3>
             <br />
-            <h4>I like pizza!</h4>
+            <h4>This is header size 4!</h4>
             <br />
-            <h5>I like pizza!</h5>
+            <h5>This is header size 5!</h5>
             <br />
-            <h6>I like pizza!</h6>
+            <h6>This is header size 6! (smoll)</h6>
             <br />
 
-            <button onClick={() => increaseNumber()}>go to 5</button>
+            <hr />
+            <h2>Ofcourse you wanna be able to use hyperlinks in your website. This can be used to open new websites or to redirect the viewer to a different part of the site.</h2>
+            <a href="https://www.youtube.com/watch?v=ePZckW651bQ"> One of my favourite videos on the interweb :)</a>
+            <p>As you can see the video above annoyingly redirects you to youtube via the same tab. <br />
+                It can be nicer for people to have it automatically open in a new tab, this is done in the link below by typing: target="blank".
+            </p>
+            <a href="https://www.youtube.com/watch?v=ePZckW651bQ" target="blank"> Still one of my favourite videos on the interweb :)</a>
+            <p>You can also make links that make a user download something. By writing download="..." you can give the downloaded file a name for the downloader.</p>
+            <a href="https://www.youtube.com/watch?v=ePZckW651bQ" download=""> Bojji!</a>
+
+            <hr />
+            <h2>Here we have some button magic. Made by Siavash Kazemsade - 18/12/2021</h2>
+            <button onClick={() => increaseNumber()}>go to meme</button>
             <button onClick={() => increaseNumberLambda()}>go to 10</button>
-            <button onClick={() => {
-                setNumber(20);
-            }}>go to 20</button>
+            <button onClick={() => { setNumber(20); }}>go to 20</button>
             <h5>{number}</h5>
 
         </>
