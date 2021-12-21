@@ -84,9 +84,46 @@ export default function KlootTemp() {
             </p>
             <img src="Bojji.jpg" title="Memé"></img>
             <p>By writing title="..." i have made is so that when you hover your mouse over the image, some text will be shown.
-
             </p>
+            <hr />
 
+            <h2>LETS LEARN LISTS</h2>
+            <p>We have three types of lists at our disposal. Lets start with the most basic one: unordered lists.</p>
+
+            <ul>
+                <li>With this type of list</li>
+                <li>we can make </li>
+                <li>very simple lists</li>
+                <li>like this</li>
+            </ul>
+
+            <p>Why the fuck are the dots so far to the left.</p>
+            <ul >
+                <li>With this type of list</li>
+                <li>we can make </li>
+                <li>very simple lists</li>
+                <li>like this</li>
+            </ul>
+            <p>I'll fix it later. NEXT UP: ORDERED LISTS. They are pretty much the same, but this time it is ordered with numbers. <br />
+                its gonna fucking go all the way left again, i can feel it
+            </p>
+            <ol >
+                <li>With this type of list</li>
+                <li>we can make </li>
+                <li>ordered lists</li>
+                <li>like this</li>
+            </ol>
+            <p>I fucking knew it but cant be bothered to fix it right now. NEEEXT: some weird ass list. idk what its called but here it is.
+            </p>
+            <ol >
+                <dt>With this type of list</dt>
+                <dd>we can make </dd>
+                <dt>these weird lists</dt>
+                <dd>which you can split up into more lists</dd>
+                <dt>I dont like it</dt>
+                <dd>so im not gonna use it, its just weird</dd>
+                <dt>Why is all my text in the middle of the screen? Maybe I should have started in an html only environment? Meh</dt>
+            </ol>
             <hr />
             <h2>Here we have some button magic. Made by Siavash Kazemsade - 18/12/2021</h2>
             <button onClick={() => increaseNumber()}>go to 5</button>
