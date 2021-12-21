@@ -17,7 +17,7 @@ export default function KlootTemp() {
 
     return (
         <>
-            <h1> Welcome to the LibraryApp Website!</h1>
+            <h1> Welcome to the LibraryApp Website! (ignore the thing above, idk how to remove it without breaking shit)</h1>
             <h2>
                 I will be trying to use a lot of different features that html provides on this website.<br />
             </h2>
