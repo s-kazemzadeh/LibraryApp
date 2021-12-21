@@ -19,11 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <KlootTemp>
-
-
-        
-        </KlootTemp>
+      <KlootTemp />
     </div>
   );
 }
