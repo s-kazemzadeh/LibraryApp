@@ -33,7 +33,8 @@ export default function KlootTemp() {
             <p>The goal of this website is to get myself used to different programming languages and tools.</p>
 
             <p> On this website you will be able to add, change and remove books from the digital library. To do this a
-                collaberation of different software languages will be used: HTML, CSS, JS, JSX (Combination of HTML and JS or someting), React and Mongoose? (I Forgor💀)
+                collaberation of different software languages will be used: HTML, CSS, JS, JSX (Combination of HTML and JS or someting), React and Mongoose? (I Forgor💀)<br />
+                But before any of that happens we have to learn the basics!
             </p>
 
             <hr />
@@ -74,11 +75,21 @@ export default function KlootTemp() {
             </p>
             <a href="https://www.youtube.com/watch?v=ePZckW651bQ" target="blank"> Still one of my favourite videos on the interweb :)</a>
             <p>You can also make links that make a user download something. By writing download="..." you can give the downloaded file a name for the downloader.</p>
-            <a href="https://www.youtube.com/watch?v=ePZckW651bQ" download=""> Bojji!</a>
+            <a href="Bojji.jpg" download="Happy Bojji" target="_blank"> Bojji!</a>
+
+            <p>More times then not you want to actually show an image on the page of your website, instead of having someone download it. <br />
+                This is very similair to the previous things we learned.
+                But this time we use &lt;img&gt; instead of &lt;a&gt;. And now we replace href="..." with src="...". <br />
+                If we do that, we can show any memes we want directly on the website.
+            </p>
+            <img src="Bojji.jpg" title="Memé"></img>
+            <p>By writing title="..." i have made is so that when you hover your mouse over the image, some text will be shown.
+
+            </p>
 
             <hr />
             <h2>Here we have some button magic. Made by Siavash Kazemsade - 18/12/2021</h2>
-            <button onClick={() => increaseNumber()}>go to meme</button>
+            <button onClick={() => increaseNumber()}>go to 5</button>
             <button onClick={() => increaseNumberLambda()}>go to 10</button>
             <button onClick={() => { setNumber(20); }}>go to 20</button>
             <h5>{number}</h5>
