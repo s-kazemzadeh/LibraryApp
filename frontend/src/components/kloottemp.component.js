@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+import '../App.css';
+import './kloottemp.css';
 
 export default function KlootTemp() {
 
@@ -142,11 +143,21 @@ export default function KlootTemp() {
 
             <hr />
 
-            <h2>COLORS</h2>
+            <h2 className="kleur" style={{ color: "blue" }}>COLORS</h2>
 
-            <p>This black and white shit is starting to really bore me so imma just starting adding random ass colors to shit. <br />
-                This can easily be done with the help of CSS (totally didnt spent 50 minutes trying to import css into my code)</p>
+            <p className="kleur">This black and white shit is starting to really bore me so imma just starting adding random ass colors to shit. <br />
+                This can easily be done with the help of CSS (totally didnt spent 50 minutes trying to import css into my code) <br />
+                When changing the background color you use background-color:"..." and to change the color of the text itself you use color="...".
+            </p>
 
+            <div className="kleur">
+                <p>If we want to change the white spaces between texts we will have to use divs. <br />
+                    and put the css properties in the div tags.
+                </p>
+
+                <p>Then the spaces in between also have the properties.</p>
+
+            </div>
         </>
 
 
