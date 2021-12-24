@@ -137,27 +137,39 @@ export default function KlootTemp() {
 
             <p>I am starting to get bored of html so lets just start to use CSS. It's the next step to frontend development before javascript. <br />
                 It doesnt look that difficult so lets start making random shit to practice. <br />
+                <br />
                 (btw cascade apparently means this:
-                a process whereby something, typically information or knowledge, is successively passed on. Which will make sense later when we start using CSS.)
+                a process whereby something, typically information or knowledge, is successively passed on.)
             </p>
 
             <hr />
 
-            <h2 className="kleur" style={{ color: "blue" }}>COLORS</h2>
+            <h2 className="colorbg" style={{ color: "blue" }}>COLORS</h2>
 
-            <p className="kleur">This black and white shit is starting to really bore me so imma just starting adding random ass colors to shit. <br />
+            <p className="colorbg">This black and white shit is starting to really bore me so imma just starting adding random ass colors to shit. <br />
                 This can easily be done with the help of CSS (totally didnt spent 50 minutes trying to import css into my code) <br />
                 When changing the background color you use background-color:"..." and to change the color of the text itself you use color="...".
             </p>
 
-            <div className="kleur">
+
+
+            <div className="colorbg bold">
+                <h2 >BOOM (also made the following text bold)</h2>
+
                 <p>If we want to change the white spaces between texts we will have to use divs. <br />
-                    and put the css properties in the div tags.
+                    and put the css properties in the div tags. (div stands for division, implying that you use it to divide your code into pieces)
                 </p>
 
                 <p>Then the spaces in between also have the properties.</p>
+                <p >We can also do things like changing the font of your texts. The one im using right now is called sans-serif.<br />
+                    To add this i just typed {'style={{ fontFamily: "sans-serif" }}'} in the p tag of my html code.<br />
+                    -----All of this is also getting hard to explain by typing. So if you wanna learn all of this.--
+                    I would recommend watching <a href="https://www.youtube.com/watch?v=cyuzt1Dp8X8" target="blank">brocode</a>-----
+                </p>
 
             </div>
+
+
         </>
 
 
