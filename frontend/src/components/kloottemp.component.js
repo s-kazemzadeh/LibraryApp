@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 
+
 export default function KlootTemp() {
-    console.log('kapot domm sws')
 
     const [number, setNumber] = useState(0);
 
     function increaseNumber() {
         setNumber(5);
-        console.log('bonk')
     }
 
     const increaseNumberLambda = () => {
@@ -125,13 +124,33 @@ export default function KlootTemp() {
                 <dt>Why is all my text in the middle of the screen? Maybe I should have started in an html only environment? Meh</dt>
             </ol>
             <hr />
-            <h2>Here we have some button magic. Made by Siavash Kazemsade - 18/12/2021</h2>
+            <h2>Here we have some button magic (with Javascript). Made by Siavash Kazemsade - 18/12/2021</h2>
             <button onClick={() => increaseNumber()}>go to 5</button>
             <button onClick={() => increaseNumberLambda()}>go to 10</button>
             <button onClick={() => { setNumber(20); }}>go to 20</button>
             <h5>{number}</h5>
 
+            <hr />
+
+            <h2>CSS (Cascading Style Sheets)</h2>
+
+            <p>I am starting to get bored of html so lets just start to use CSS. It's the next step to frontend development before javascript. <br />
+                It doesnt look that difficult so lets start making random shit to practice. <br />
+                (btw cascade apparently means this:
+                a process whereby something, typically information or knowledge, is successively passed on. Which will make sense later when we start using CSS.)
+            </p>
+
+            <hr />
+
+            <h2>COLORS</h2>
+
+            <p>This black and white shit is starting to really bore me so imma just starting adding random ass colors to shit. <br />
+                This can easily be done with the help of CSS (totally didnt spent 50 minutes trying to import css into my code)</p>
+
         </>
+
+
+
 
     )
 };
