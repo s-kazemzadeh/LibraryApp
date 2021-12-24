@@ -1,4 +1,10 @@
-.kleur{
+.colorbg{
     background-color: black;
     color: green;
 }
+
+.bold {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
