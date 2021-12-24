@@ -136,6 +136,7 @@ export default function KlootTemp() {
             <h2>CSS (Cascading Style Sheets)</h2>
 
             <p>I am starting to get bored of html so lets just start to use CSS. It's the next step to frontend development before javascript. <br />
+                {"<div>bonk</div>"}
                 It doesnt look that difficult so lets start making random shit to practice. <br />
                 (btw cascade apparently means this:
                 a process whereby something, typically information or knowledge, is successively passed on. Which will make sense later when we start using CSS.)
