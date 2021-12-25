@@ -24,3 +24,10 @@
   margin: 50px;
 
 }
+
+.backgroundProf{
+  background-image: url("../../src/kapotprofes.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
