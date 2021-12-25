@@ -17,7 +17,7 @@ export default function KlootTemp() {
 
     return (
         <>
-            <h1> Welcome to the LibraryApp Website! (ignore the thing above, idk how to remove it without breaking shit)</h1>
+            <h1> Welcome to the LibraryApp Website!</h1>
             <h2>
                 I will be trying to use a lot of different features that html provides on this website.<br />
             </h2>
@@ -167,6 +167,23 @@ export default function KlootTemp() {
                     -----All of this is also getting hard to explain by typing. So if you wanna learn all of this.--
                     I would recommend watching <a href="https://www.youtube.com/watch?v=cyuzt1Dp8X8" target="blank">brocode</a>-----
                 </p>
+
+                <div className="colorPurple bold" >
+
+                    <h2 style={{ color: "yellow" }}>BORDERS AN SHIT</h2>
+
+                    <p className="borders" style={{ color: "cyan" }}>so to make shit look nice we need padding and stuff. You just add a lot of stuff around shit to make stuff go to where you want it to go. <br />
+                        later we can do this a lot better with bootstrap and react or something apparently. Right now im also making the borders visible, so its easier to see whats happening.
+                        <br /> They are always here, but normally not visible. The blue part is from the text itself, the red is called padding and the purple is called margin.
+                        <br /> You can adjust the sizes of these by just changing the amount of pixels they should be.
+                    </p>
+                    <p style={{ color: "purple" }}>
+                        boo, i had to add this so i could show the margin border a bit better. Because you cant actually color the margin in CSS (and then I made this text purple to hide it lmao)
+                    </p>
+
+                </div>
+
+                <img src="Scenario for CSS padding properties.png" height={400} />
 
             </div>
 

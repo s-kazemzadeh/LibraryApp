@@ -3,8 +3,24 @@
     color: green;
 }
 
+.colorPurple{
+    background-color: purple;
+    color: green;
+}
+
 .bold {
   font-weight: bold;
   font-family: sans-serif;
 }
 
+.borders{
+  border-style: solid;
+  border-style: dashed;
+  border-width: 5px;
+  padding: 50px;
+  background: #004a94;
+  background-clip: content-box;
+  box-shadow: inset 0 0 0 50px #811a00;
+  margin: 50px;
+
+}
