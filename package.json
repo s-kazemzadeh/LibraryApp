@@ -1,0 +1,19 @@
+{
+  "name": "libraryapp",
+  "version": "1.0.0",
+  "description": "huts\r ah nivvo\r Lorem speaks to the trees",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-kazemzadeh/LibraryApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s-kazemzadeh/LibraryApp/issues"
+  },
+  "homepage": "https://github.com/s-kazemzadeh/LibraryApp#readme"
+}

@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import '../App.css';
 import './kloottemp.css';
+import { Button, Alert, Dropdown, Image } from 'react-bootstrap';
 
 export default function KlootTemp() {
 
     const [number, setNumber] = useState(0);
+    const [show, setShow] = useState(true);
+    const [showImage, setShowImage] = useState(false);
 
     function increaseNumber() {
         setNumber(5);
@@ -12,6 +15,12 @@ export default function KlootTemp() {
 
     const increaseNumberLambda = () => {
         setNumber(10);
+    }
+
+    const showSpam = () => {
+        return (
+            <Image src="Bojji.jpg"></Image>
+        );
     }
 
 
@@ -126,8 +135,8 @@ export default function KlootTemp() {
             </ol>
             <hr />
             <h2>Here we have some button magic (with Javascript). Made by Siavash Kazemsade - 18/12/2021</h2>
-            <button onClick={() => increaseNumber()}>go to 5</button>
-            <button onClick={() => increaseNumberLambda()}>go to 10</button>
+            <button onClick={increaseNumber}>go to 5</button>
+            <button onClick={increaseNumberLambda}>go to 10</button>
             <button onClick={() => { setNumber(20); }}>go to 20</button>
             <h5>{number}</h5>
 
@@ -256,7 +265,31 @@ export default function KlootTemp() {
                     <p>lmfao</p>
 
                 </p>
-
+                <div>
+                    <Button variant="primary" onClick={() => {
+                        setShow(!show)
+                        alert("ewa gangster")
+                    }}>
+                        bob
+                    </Button >
+                    <Button variant="primary" onClick={() => {
+                        setShowImage(!showImage)
+                    }}>
+                        show bob and image
+                    </Button >
+                    <Button variant="primary" onClick={() => {
+                        setInterval(showSpam, 5);
+                    }}>
+                        spam
+                    </Button >
+                    <Button variant="primary" onClick={() => {
+                        clearInterval(showSpam);
+                    }}>
+                        pls stop spam
+                    </Button >
+                    <Alert show={show} variant="danger">bob2</Alert>
+                    {showImage ? <Image src="Bojji.jpg"></Image> : null}
+                </div>
             </div>
 
 
