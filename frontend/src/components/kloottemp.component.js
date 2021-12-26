@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import '../App.css';
 import './kloottemp.css';
 import { Button, Alert, Dropdown, Image } from 'react-bootstrap';
@@ -8,6 +8,7 @@ export default function KlootTemp() {
     const [number, setNumber] = useState(0);
     const [show, setShow] = useState(true);
     const [showImage, setShowImage] = useState(false);
+    const [showSpam, setShowSpam] = useState(false);
 
     function increaseNumber() {
         setNumber(5);
@@ -17,11 +18,51 @@ export default function KlootTemp() {
         setNumber(10);
     }
 
-    const showSpam = () => {
-        return (
-            <Image src="Bojji.jpg"></Image>
-        );
-    }
+    useEffect(() => {
+        setInterval(() => {
+            setShowSpam(!showSpam);
+        }, 2000);
+    }, [])
+
+    // const showSpamFunc = () => {
+    //     return (<>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //         <Image src="Bojji.jpg"></Image>
+    //     </>);
+    // }
+
 
 
     return (
@@ -278,17 +319,18 @@ export default function KlootTemp() {
                         show bob and image
                     </Button >
                     <Button variant="primary" onClick={() => {
-                        setInterval(showSpam, 5);
+
                     }}>
                         spam
                     </Button >
                     <Button variant="primary" onClick={() => {
-                        clearInterval(showSpam);
+                        setShowSpam(!showSpam)
                     }}>
-                        pls stop spam
+                        pls stop spamsdssssss
                     </Button >
                     <Alert show={show} variant="danger">bob2</Alert>
                     {showImage ? <Image src="Bojji.jpg"></Image> : null}
+                    {showSpam ? <Image src="Bojji.jpg"></Image> : <></>}
                 </div>
             </div>
 
