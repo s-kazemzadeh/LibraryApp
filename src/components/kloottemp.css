@@ -31,3 +31,9 @@
   background-size: cover;
   background-attachment: fixed;
 }
+
+.noPress:hover{
+    background-image: url("../../src/bOjjji.png");
+    background-position: center;
+
+}

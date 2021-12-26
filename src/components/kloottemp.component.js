@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import '../App.css';
 import './kloottemp.css';
-import { Button, Alert, Dropdown, Image } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button, ToggleButtonGroup, ToggleButton, Alert, Dropdown, Image } from 'react-bootstrap';
 
 export default function KlootTemp() {
 
@@ -18,50 +19,16 @@ export default function KlootTemp() {
         setNumber(10);
     }
 
-    useEffect(() => {
-        setInterval(() => {
-            setShowSpam(!showSpam);
-        }, 50);
-    }, [])
 
-    // const showSpamFunc = () => {
-    //     return (<>
+    // useEffect(() => {
+    //     setInterval(() => {
+    //         setShowSpam(!showSpam);
+    //     }, 50);
+    // }, [])
+
+
     //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //         <Image src="Bojji.jpg"></Image>
-    //     </>);
-    // }
+
 
 
 
@@ -304,9 +271,12 @@ export default function KlootTemp() {
                         </p>
                     </div>
                     <p>lmfao</p>
+                    <p>imma start using javascript and react too cuz why not.<br />
+                        this website is really usefull: <a href="https://react-bootstrap.github.io/components/buttons/" target="blank">react bootstrap</a>
+                    </p>
 
                 </p>
-                <div>
+                {/* <div>
                     <Button variant="primary" onClick={() => {
                         setShow(!show)
                         alert("ewa gangster")
@@ -331,7 +301,10 @@ export default function KlootTemp() {
                     <Alert show={show} variant="danger">bob2</Alert>
                     {showImage ? <Image src="Bojji.jpg"></Image> : null}
                     {showSpam ? <Image src="Bojji.jpg"></Image> : <></>}
-                </div>
+                </div> */}
+
+                <Button variant="danger" size="lg" className="noPress" type="button" value="Input" href="https://www.youtube.com/watch?v=ENOVFk9hu_U" target="blank">Do not press the button</Button>{''}
+
             </div>
 
 
