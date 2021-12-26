@@ -21,7 +21,7 @@ export default function KlootTemp() {
     useEffect(() => {
         setInterval(() => {
             setShowSpam(!showSpam);
-        }, 2000);
+        }, 50);
     }, [])
 
     // const showSpamFunc = () => {
