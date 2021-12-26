@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          weeeeee!!!
+          weeeeeeeeeeeeeeeeeeeee!!!
         </a>
       </header>
       <KlootTemp />
