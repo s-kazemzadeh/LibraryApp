@@ -19,19 +19,6 @@ export default function KlootTemp() {
         setNumber(10);
     }
 
-
-    // useEffect(() => {
-    //     setInterval(() => {
-    //         setShowSpam(!showSpam);
-    //     }, 50);
-    // }, [])
-
-
-    //         <Image src="Bojji.jpg"></Image>
-
-
-
-
     return (
         <>
             <h1> Welcome to the LibraryApp Website!</h1>
@@ -39,7 +26,7 @@ export default function KlootTemp() {
                 I will be trying to use a lot of different features that html provides on this website.<br />
             </h2>
             <h2>
-                This will be usefull (I hope) if you ever need to use something and I forgor 💀 happens.
+                This will be useful (I hope) if you ever need to use something and I forgor 💀 happens.
             </h2>
             <h2>
                 If you see something on the website and wanna know how to use it, right click and inspect element. This way you can see a little bit how it is done.
@@ -206,109 +193,96 @@ export default function KlootTemp() {
 
                 <h2>BACKGROUNDS GO BRRR</h2>
 
-                <p>
-                    apparently you can add images as backgrounds. so lets do that beacuse why not
-                    <div className="backgroundProf">
-                        <p>
-                            i searched on google: professional image and got this. looks good (no gae) <br />
-                            i couldnt get the image to show itself fully so imma do it by just typing until the image is fully on screen.
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                            BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
-                        </p>
-                    </div>
-                    <p>lmfao</p>
-                    <p>imma start using javascript and react too cuz why not.<br />
-                        this website is really usefull: <a href="https://react-bootstrap.github.io/components/buttons/" target="blank">react bootstrap</a>
-                    </p>
-
+                <p className="backgroundProf">
+                    apparently you can add images as backgrounds. <br />
+                    so lets do that beacuse why not
                 </p>
-                {/* <div>
-                    <Button variant="primary" onClick={() => {
-                        setShow(!show)
-                        alert("ewa gangster")
-                    }}>
-                        bob
-                    </Button >
-                    <Button variant="primary" onClick={() => {
-                        setShowImage(!showImage)
-                    }}>
-                        show bob and image
-                    </Button >
-                    <Button variant="primary" onClick={() => {
 
-                    }}>
-                        spam
-                    </Button >
-                    <Button variant="primary" onClick={() => {
-                        setShowSpam(!showSpam)
-                    }}>
-                        pls stop spamsdssssss
-                    </Button >
-                    <Alert show={show} variant="danger">bob2</Alert>
-                    {showImage ? <Image src="Bojji.jpg"></Image> : null}
-                    {showSpam ? <Image src="Bojji.jpg"></Image> : <></>}
-                </div> */}
 
-                <Button variant="danger" size="lg" className="noPress" type="button" value="Input" href="https://www.youtube.com/watch?v=ENOVFk9hu_U" target="blank">Do not press the button</Button>{''}
+                <Button variant="danger" size="lg" className="noPress sibling-hover" href="https://www.youtube.com/watch?v=ENOVFk9hu_U" target="blank">Do not press the button</Button>
+
+
+                <div className="sibling-highlight">
+                    <p>
+
+
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<a href="https://randomword.com/" target="blank">R</a>RRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                    </p>
+                </div>
+                <p>lmfao <br />
+                    imma start using javascript and react too cuz why not.<br />
+                    this website is really usefull: <a href="https://react-bootstrap.github.io/components/buttons/" target="blank">react bootstrap</a>
+                </p>
+
+
+
 
             </div>
 
 
         </>
+
+
+
+
+
+
+
 
 
 

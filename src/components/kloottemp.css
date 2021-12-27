@@ -25,15 +25,27 @@
 
 }
 
-.backgroundProf{
-  background-image: url("../../src/kapotprofes.png");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
 
-.noPress:hover{
-    background-image: url("../../src/bOjjji.png");
-    background-position: center;
 
+  .backgroundBojji{
+        background-image: url("../../src/Bojji.png");
+        background-position: center;
+  }
+
+  .backgroundProf{
+        background-image: url("../../src/kapotprofes.png");
+        background-position: center;
+        background-attachment: fixed;
+
+  }
+
+  .noPress:hover {
+       background-image: url("../../src/bOjjji.png");
+       background-position: center;
+  }
+
+.sibling-hover:hover ~ .sibling-highlight  {
+       background-image: url("../../src/bOjjji.png");
+       background-position: center;
+       color: red;
 }
