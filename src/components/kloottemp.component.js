@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import '../App.css';
 import './kloottemp.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, ToggleButtonGroup, ToggleButton, Alert, Dropdown, Image } from 'react-bootstrap';
+import { Button, ToggleButtonGroup, ToggleButton, Alert, Dropdown, Image, Container, Col, Row } from 'react-bootstrap';
 
 export default function KlootTemp() {
 
@@ -20,7 +20,7 @@ export default function KlootTemp() {
     }
 
     return (
-        <>
+        <div className="">
             <h1> Welcome to the LibraryApp Website!</h1>
             <h2>
                 I will be trying to use a lot of different features that html provides on this website.<br />
@@ -204,8 +204,6 @@ export default function KlootTemp() {
 
                 <div className="sibling-highlight">
                     <p>
-
-
                         BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
                         BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
                         BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
@@ -262,6 +260,7 @@ export default function KlootTemp() {
                         BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
                         BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
                         BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />
+                        banana
                     </p>
                 </div>
                 <p>lmfao <br />
@@ -269,22 +268,33 @@ export default function KlootTemp() {
                     this website is really usefull: <a href="https://react-bootstrap.github.io/components/buttons/" target="blank">react bootstrap</a>
                 </p>
 
+                <p>Okay lets try to make the LibraryApp now.</p>
 
+                <div className="colorbg bold buttonbox">
+                    <Button variant="primary" className="noPress" >Add</Button>{' '}
+                    <Button variant="primary" className="noPress" >Change</Button>{' '}
+                    <Button variant="primary" className="noPress" >Remove</Button>{' '}
+                </div>
 
+                <div className="librarytable">
+                    <Container className="borderred">
+                        <Row>
+                            <Col>Book name</Col>
+                            <Col>Book ID</Col>
+                        </Row>
+                        <Row>
+                            <Col>1 of 3</Col>
+                            <Col>2 of 3</Col>
+                        </Row>
+                    </Container>
+
+                </div>
 
             </div>
 
 
-        </>
 
-
-
-
-
-
-
-
-
+        </div>
 
 
     )
